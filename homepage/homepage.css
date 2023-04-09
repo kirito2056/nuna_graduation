@@ -1,0 +1,27 @@
+.button {
+    width: 300px;
+    height: 100px;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.button_container {
+    margin: 0;
+    position: absolute;
+
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+    top: 30%;
+    left: 50%;
+}
+
+.container {
+    height: 45vh;
+    position: relative;
+    border: 3px solid black;
+  }
+  
